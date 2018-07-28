@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Botstrap Title</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<style>
+		.product-child-body {
+		    display:  flex;
+		    flex-direction:  row;
+		    justify-content: space-between;
+		}
+
+		.product-child-body .cell {
+		    flex: 1;
+		    border: 1px solid #dfdfdf;
+		    border-right: 0px;
+		    padding: 5px;
+		    line-height: 20px;
+		    overflow: hidden;
+		    white-space: nowrap;
+		    text-overflow: ellipsis;
+		    width: 100%;
+		}
+
+		.product-child-body.header {
+		    background: #f2f2f2;
+		}
+
+		.product-child-body .cell:last-child {
+		    border-right: 1px solid #dfdfdf;
+		}
+
+		p.cell-title.text-center {
+		    margin-bottom: 0px;
+		}
+
+		p.cell-title {}
+
+		.product-child-body.cell-title {
+		    margin-bottom: 0px;
+		}
+
+		.product-child-body .cell p.cell-title {
+		    margin-bottom: 0px;
+		    display: block;
+		    /* line-height: 20px; */
+		    overflow: hidden;
+		    white-space: nowrap;
+		    text-overflow: ellipsis;
+		    width: 100%;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div style="position: relative;">
+		    	<div class="product-child">
+		    		<div class="product-child-body header">
+		    			<span class="cell">
+		    				<p class="cell-title">S/no</p>
+			    		</span>
+			    		<span class="cell">
+			    			<p class="cell-title" title="Manufacturing Process">Manufacturing Process </p>
+			    		</span>
+			    		<span class="cell">
+			    			<p class="cell-title" title="Test/Inspect Qty">Test/Inspect Qty</p>
+			    		</span>
+			    		<span class="cell">
+			    			<p class="cell-title" title="Fail Qty">Fail Qty</p>
+			    		</span>
+			    		<span class="cell">
+			    			<p class="cell-title" title="Fail Rate">Fail Rate</p>
+			    		</span>
+			    		<span class="cell">
+			    			<p class="cell-title" title="Serial Number">Serial Number</p>
+			    		</span>
+			    		<span class="cell">
+			    			<p class="cell-title" title="Product Build Date">Product Build Date</p>
+			    		</span>
+			    		<span class="cell">
+			    			<p class="cell-title" title="Product Ship Date">Product Ship Date</p>
+			    		</span>
+		    		</div>
+		    		<div class="product-child-body">
+		    			<span class="cell">
+		    				<p class="cell-title text-center">Process one</p>
+			    		</span>
+			    		<span class="cell">
+		    				<p class="cell-title text-center">23432</p>
+			    		</span>
+			    		<span class="cell">
+		    				<p class="cell-title text-center">2986</p>
+			    		</span>
+			    		<span class="cell">
+		    				<p class="cell-title text-center">298349823</p>
+			    		</span>
+			    		<span class="cell">
+		    				<p class="cell-title text-center">029834</p>
+			    		</span>
+			    		<span class="cell">
+		    				<p class="cell-title text-center">298y342y9834yy234</p>
+			    		</span>
+			    		<span class="cell">
+		    				<p class="cell-title text-center">12/04/2018</p>
+			    		</span>
+			    		<span class="cell">
+		    				<p class="cell-title text-center">320/07/2018</p>
+			    		</span>
+			    		
+		    		</div>
+		    		
+		    	</div>
+		   </div>
+		</div>
+	</div>
+</body>
+</html>
