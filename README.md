@@ -1,2 +1,2 @@
-# flex
+# flex responsive table
 flex codes
